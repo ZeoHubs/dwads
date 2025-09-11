@@ -115,10 +115,10 @@ if executor == "Delta" then
     desc.TextXAlignment = Enum.TextXAlignment.Center
     desc.TextYAlignment = Enum.TextYAlignment.Center
     desc.Text = [[ The script requires teleportation if it says "<font color="#FFD700">ERROR</font>".
-1) Check if it say's Error in the top.
-2) Click "Rejoin Game" if yes (Click Open Script) if not.
+1) Check if it say's Error on the top.
+2) Click "Rejoin Game" if yes (Open the Script) if not.
 3) Run the script again.
-4) Click Open Script. ]]
+4)  🗿 🗿 🗿 ]]
     desc.RichText = true
 
     -- Button Container
